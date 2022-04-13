@@ -3,8 +3,11 @@ import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home/Home/Home';
 import Header from './Pages/Shared/Header/Header';
-import Footer from '../src/Pages/Shared/Footer/Footer';
-import Services from './Pages/Home/Services/Services';
+import Login from './Pages/Login/Login';
+import NotFound from './Pages/Shared/NotFound/NotFound';
+
+import ServiceDetail from './Pages/ServiceDetail/ServiceDetail';
+import About from './Pages/About/About';
 
 function App() {
   return (
@@ -12,10 +15,15 @@ function App() {
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
-        <Route path="/footer" element={<Footer></Footer>}></Route>
-        <Route path="/services" element={<Services></Services>}></Route>
+        <Route path="/home" element={<Home></Home>}></Route>
+        <Route path="/login" element={<Login></Login>}> </Route>
+        <Route path="/about" element={<About></About>}></Route>
+        <Route path="*" element={<NotFound></NotFound>}></Route>
+
+        {/* <Route path="/service/:serviceId" element={<ServiceDetail></ServiceDetail>}></Route> */}
+        <Route path="/service/:serviceId" element={<ServiceDetail></ServiceDetail>}></Route>
       </Routes>
-      <Footer></Footer>
+
 
     </div>
   );
