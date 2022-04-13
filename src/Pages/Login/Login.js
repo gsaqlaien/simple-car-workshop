@@ -18,7 +18,7 @@ const Login = () => {
 
     }
 
-    const navigateRegister = event => {
+    const navigateLogin = event => {
         navigate('/register');
     }
     return (
@@ -41,11 +41,11 @@ const Login = () => {
                 <Form.Group className="mb-3" controlId="formBasicCheckbox">
                     <Form.Check type="checkbox" label="Check me out" />
                 </Form.Group>
-                <Button variant="primary" type="submit">
+                <Button variant="info" type="submit">
                     Submit
                 </Button>
             </Form>
-            <p>New to Simple Car ! <span onClick={navigateRegister} className='text-waring'>Please Register</span></p>
+            <p>New to Simple Car ! <span onClick={navigateLogin} className='text-white btn btn rounded btn-info'>Please Register</span></p>
         </div>
     );
 };
