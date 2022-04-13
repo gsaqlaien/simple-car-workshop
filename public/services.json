@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "OIL CHANGE",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae accusamus id magni, placeat omnis officiis eum, molestiae officia esse minima earum doloribus voluptatum eveniet? Rem explicabo non consectetur error culpa?",
+        "price": 100,
+        "img": "https://i.ibb.co/3m0wPfD/img1.png"
+    },
+    {
+        "id": 2,
+        "name": "BRAKE FLUID TEST",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae accusamus id magni, placeat omnis officiis eum, molestiae officia esse minima earum doloribus voluptatum eveniet? Rem explicabo non consectetur error culpa?",
+        "price": 50,
+        "img": "https://i.ibb.co/ns35XwT/img2.png"
+    },
+    {
+        "id": 3,
+        "name": "REGULAR MAINTENANCE",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae accusamus id magni, placeat omnis officiis eum, molestiae officia esse minima earum doloribus voluptatum eveniet? Rem explicabo non consectetur error culpa?",
+        "price": 350,
+        "img": "https://i.ibb.co/BznfpGp/img3.png"
+    },
+    {
+        "id": 4,
+        "name": "GEAR OIL",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae accusamus id magni, placeat omnis officiis eum, molestiae officia esse minima earum doloribus voluptatum eveniet? Rem explicabo non consectetur error culpa?",
+        "price": 80,
+        "img": "https://i.ibb.co/DCNXsT7/img4.png"
+    },
+    {
+        "id": 5,
+        "name": "ALIGNMENT",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae accusamus id magni, placeat omnis officiis eum, molestiae officia esse minima earum doloribus voluptatum eveniet? Rem explicabo non consectetur error culpa?",
+        "price": 500,
+        "img": "https://i.ibb.co/5LYqjR7/img5.png"
+    },
+    {
+        "id": 6,
+        "name": "FLAT TIRES",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae accusamus id magni, placeat omnis officiis eum, molestiae officia esse minima earum doloribus voluptatum eveniet? Rem explicabo non consectetur error culpa?",
+        "price": 100,
+        "img": "https://i.ibb.co/NjVTjf0/img7.png"
+    },
+    {
+        "id": 7,
+        "name": "OIL CHANGE",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae accusamus id magni, placeat omnis officiis eum, molestiae officia esse minima earum doloribus voluptatum eveniet? Rem explicabo non consectetur error culpa?",
+        "price": 100,
+        "img": "https://i.ibb.co/ScGwNjC/img6.png"
+    }
+]
